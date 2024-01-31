@@ -1,4 +1,4 @@
-﻿namespace Booking.Common;
+﻿namespace Otus.Booking.Common;
 
 public static class Roles
 {
