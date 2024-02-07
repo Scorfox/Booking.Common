@@ -3,9 +3,9 @@
 namespace Otus.Booking.Common.Booking.Contracts.Authentication.Responses;
 
 /// <summary>
-/// Ответ на успешное создание клиента
+/// Ответ на успешное создание пользователя
 /// </summary>
-public record CreateClientResult : BaseClientDto
+public record CreateUserResult : BaseUserDto
 {
     public Guid Id { get; set; }
 }

@@ -3,9 +3,9 @@
 namespace Otus.Booking.Common.Booking.Contracts.Authentication.Requests;
 
 /// <summary>
-/// Запрос на создание клиента
+/// Запрос на создание пользователя
 /// </summary>
-public record CreateClient : BaseClientDto
+public record CreateUser : BaseUserDto
 {
     
 }
