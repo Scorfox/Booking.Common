@@ -11,4 +11,6 @@ public abstract record BaseUserDto
     public string MiddleName { get; set; }
     
     public string PhoneNumber { get; set; }
+    
+    public Guid RoleId { get; set; }
 }
