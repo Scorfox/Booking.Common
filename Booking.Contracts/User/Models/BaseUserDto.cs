@@ -1,7 +1,9 @@
-﻿namespace Otus.Booking.Common.Booking.Contracts.Authentication.Models;
+﻿namespace Otus.Booking.Common.Booking.Contracts.User.Models;
 
 public abstract record BaseUserDto
 {
+    public string? CompanyId { get; set; }
+    
     public string Email { get; set; }
     public string Login { get; set; }
     public string Password { get; set; }

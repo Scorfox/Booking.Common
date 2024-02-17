@@ -1,6 +1,6 @@
-﻿using Otus.Booking.Common.Booking.Contracts.Authentication.Models;
+﻿using Otus.Booking.Common.Booking.Contracts.User.Models;
 
-namespace Otus.Booking.Common.Booking.Contracts.Authentication.Requests;
+namespace Otus.Booking.Common.Booking.Contracts.User.Requests;
 
 /// <summary>
 /// Запрос на обновление пользователя

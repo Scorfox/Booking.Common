@@ -1,6 +1,6 @@
-﻿using Otus.Booking.Common.Booking.Contracts.Authentication.Models;
+﻿using Otus.Booking.Common.Booking.Contracts.User.Models;
 
-namespace Otus.Booking.Common.Booking.Contracts.Authentication.Responses;
+namespace Otus.Booking.Common.Booking.Contracts.User.Responses;
 
 /// <summary>
 /// Ответ на успешное создание пользователя
