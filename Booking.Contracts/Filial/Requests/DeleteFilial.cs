@@ -1,6 +1,6 @@
 ﻿namespace Otus.Booking.Common.Booking.Contracts.Filial.Requests
 {
-    public struct DeleteFilial
+    public record DeleteFilial
     {
         public Guid Id { get; set; }
     }
