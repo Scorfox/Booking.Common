@@ -17,16 +17,5 @@
             set => _limit = value;
         }
 
-        public int PageSize
-        {
-            get { return Limit; }
-            set { _limit = value; }
-        }
-
-        public int PageNumber
-        {
-            get { return (int)Math.Floor((double)(Offset / Limit)) + 1; }
-            set { _offset = value * Limit; }
-        }
     }
 }
