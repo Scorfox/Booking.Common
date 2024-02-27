@@ -2,7 +2,7 @@
 
 namespace Otus.Booking.Common.Booking.Contracts.Notification.Responses
 {
-    public record GetCompaniesListResult : BaseTemplateDto
+    public record SendNotificationResult : BaseTemplateDto
     {
         public Guid Id { get; set; }
     }
