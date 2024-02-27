@@ -2,6 +2,6 @@
 {
     public record GetReservationId
     {
-        Guid Id { get; }
+        public Guid Id { get; set; }
     }
 }
