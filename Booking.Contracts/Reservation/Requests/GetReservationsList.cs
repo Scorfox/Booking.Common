@@ -1,8 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Otus.Booking.Common.Booking.Contracts.Company.Requests
+namespace Otus.Booking.Common.Booking.Contracts.Reservation.Requests
 {
-    public record GetCompaniesList
+    public record GetReservationsList
     {
         private int _offset;
         private int _limit;
