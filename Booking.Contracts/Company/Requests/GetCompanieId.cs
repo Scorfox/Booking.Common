@@ -4,6 +4,6 @@ namespace Otus.Booking.Common.Booking.Contracts.Company.Requests
 {
     public record GetCompanieId
     {
-        Guid Id { get; }
+        Guid Id { get; set; }
     }
 }

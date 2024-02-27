@@ -2,6 +2,6 @@
 {
     public record GetTableId
     {
-        Guid Id { get; }
+        Guid Id { get; set; }
     }
 }

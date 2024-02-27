@@ -1,7 +1,7 @@
 ﻿namespace Otus.Booking.Common.Booking.Contracts.Filial.Requests
 {
-    public record GetFilialIdList
+    public record GetFilialId
     {
-        Guid Id { get; }
+        Guid Id { get; set; }
     }
 }
