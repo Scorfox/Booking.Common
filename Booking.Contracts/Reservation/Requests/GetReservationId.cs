@@ -1,7 +1,6 @@
-﻿namespace Otus.Booking.Common.Booking.Contracts.Reservation.Requests
-{
-    public record GetReservationId
-    {
-        public Guid Id { get; set; }
-    }
-}
+﻿using Otus.Booking.Common.Booking.Contracts.Common;
+
+namespace Otus.Booking.Common.Booking.Contracts.Reservation.Requests;
+
+public record GetReservationId : RequestById;
+
