@@ -1,9 +1,7 @@
-﻿using Otus.Booking.Common.Booking.Contracts.Company.Models;
+﻿using Otus.Booking.Common.Booking.Contracts.Common;
+using Otus.Booking.Common.Booking.Contracts.Company.Models;
 
 namespace Otus.Booking.Common.Booking.Contracts.Company.Responses
 {
-    public record GetCompaniesListResult
-    {
-        public List<FullCompanyDto> Companies { get; set; }
-    }
+    public record GetCompaniesListResult : ListedResponse<FullCompanyDto>;
 }
