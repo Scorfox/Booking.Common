@@ -2,5 +2,5 @@
 
 namespace Otus.Booking.Common.Booking.Contracts.Reservation.Requests;
 
-public record GetReservationId : RequestById;
+public record GetReservationById : RequestById;
 

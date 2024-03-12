@@ -2,4 +2,4 @@
 
 namespace Otus.Booking.Common.Booking.Contracts.Filial.Requests;
 
-public record GetFilialId : RequestById;
+public record GetFilialById : RequestById;

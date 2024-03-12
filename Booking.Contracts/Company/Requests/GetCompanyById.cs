@@ -2,5 +2,5 @@
 
 namespace Otus.Booking.Common.Booking.Contracts.Company.Requests;
 
-public record GetCompanyId : RequestById;
+public record GetCompanyById : RequestById;
 
