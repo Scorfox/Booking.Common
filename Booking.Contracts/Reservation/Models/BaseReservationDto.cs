@@ -2,6 +2,7 @@
 
 public abstract record BaseReservationDto
 {
+    public Guid CompanyId { get; set; }
     public Guid TableId { get; set; }
     
     public Guid WhoBookedId { get; set; }
