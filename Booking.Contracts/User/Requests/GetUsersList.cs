@@ -1,6 +1,8 @@
 ﻿using Otus.Booking.Common.Booking.Contracts.Common;
 
-namespace Otus.Booking.Common.Booking.Contracts.User.Requests
+namespace Otus.Booking.Common.Booking.Contracts.User.Requests;
+
+public record GetUsersList : RequestWithPagination
 {
-    public record GetUsersList : RequestWithPagination;
+    public Guid RoleId { get; set; }
 }
