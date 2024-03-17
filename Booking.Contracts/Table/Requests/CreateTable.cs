@@ -5,4 +5,4 @@ namespace Otus.Booking.Common.Booking.Contracts.Table.Requests;
 /// <summary>
 /// Запрос на создание стола
 /// </summary>
-public record CreateTable : BaseTableDto { }
+public record CreateTable : BaseTableDto;

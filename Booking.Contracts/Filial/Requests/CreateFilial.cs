@@ -5,4 +5,4 @@ namespace Otus.Booking.Common.Booking.Contracts.Filial.Requests;
 /// <summary>
 /// Запрос на создание филиала
 /// </summary>
-public record CreateFilial : BaseFilialDto { }
+public record CreateFilial : BaseFilialDto;

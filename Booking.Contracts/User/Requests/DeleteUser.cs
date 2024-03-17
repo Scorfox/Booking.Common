@@ -1,7 +1,8 @@
-﻿namespace Otus.Booking.Common.Booking.Contracts.User.Requests
-{
-    public record DeleteUser
-    {
-        public Guid Id { get; set; }
-    }
-}
+﻿using Otus.Booking.Common.Booking.Contracts.Common;
+
+namespace Otus.Booking.Common.Booking.Contracts.User.Requests;
+
+/// <summary>
+/// Запрос на удаление пользователя
+/// </summary>
+public record DeleteUser : RequestById;

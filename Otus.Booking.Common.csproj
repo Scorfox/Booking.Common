@@ -13,8 +13,4 @@
       </PackageReference>
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Booking.Contracts\Auth\Models\" />
-    </ItemGroup>
-
 </Project>

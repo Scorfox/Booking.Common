@@ -2,7 +2,10 @@
 
 namespace Otus.Booking.Common.Booking.Contracts.User.Requests;
 
-public record GetUsersList : RequestWithPagination
+/// <summary>
+/// Запрос на получение пользователей (клиентов/админов) с пагинацией
+/// </summary>
+public record GetUsersList : RequestByPagination
 {
     public Guid RoleId { get; set; }
 }

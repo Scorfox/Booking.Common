@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
-using Otus.Booking.Common.Booking.Contracts.Common;
+﻿using Otus.Booking.Common.Booking.Contracts.Common;
 
-namespace Otus.Booking.Common.Booking.Contracts.Company.Requests
-{
-    public record GetCompaniesList : RequestWithPagination;
-}
+namespace Otus.Booking.Common.Booking.Contracts.Company.Requests;
+
+/// <summary>
+/// Запрос на получение компанией с пагниацией
+/// </summary>
+public record GetCompaniesList : RequestByPagination;

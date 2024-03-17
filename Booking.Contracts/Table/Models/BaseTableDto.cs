@@ -2,6 +2,7 @@
 
 public abstract record BaseTableDto
 {
+    public Guid CompanyId { get; set; }
     public Guid FilialId { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }

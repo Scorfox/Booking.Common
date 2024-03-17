@@ -2,5 +2,8 @@
 
 namespace Otus.Booking.Common.Booking.Contracts.Reservation.Requests;
 
+/// <summary>
+/// Запрос на получение бронирования
+/// </summary>
 public record GetReservationById : RequestById;
 

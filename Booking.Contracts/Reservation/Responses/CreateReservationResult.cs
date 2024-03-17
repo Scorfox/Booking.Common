@@ -5,7 +5,4 @@ namespace Otus.Booking.Common.Booking.Contracts.Reservation.Responses;
 /// <summary>
 /// Ответ на успешное создание брони
 /// </summary>
-public record CreateReservationResult : BaseReservationDto
-{
-    public Guid Id { get; set; }
-}
+public record CreateReservationResult : ReservationGettingDto;

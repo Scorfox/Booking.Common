@@ -5,7 +5,4 @@ namespace Otus.Booking.Common.Booking.Contracts.Filial.Responses;
 /// <summary>
 /// Ответ на успешное обновление филиала
 /// </summary>
-public record UpdateFilialResult : BaseFilialDto
-{
-    public Guid Id { get; set; }
-}
+public record UpdateFilialResult : FilialGettingDto;

@@ -3,6 +3,6 @@
 namespace Otus.Booking.Common.Booking.Contracts.Reservation.Requests;
 
 /// <summary>
-/// Запрос на создание брони
+/// Запрос на создание бронирования
 /// </summary>
-public record CreateReservation : BaseReservationDto { }
+public record CreateReservation : BaseReservationDto;
