@@ -2,7 +2,7 @@
 
 public abstract record BaseUserDto
 {
-    public string? CompanyId { get; set; }
+    public Guid? CompanyId { get; set; }
     
     public string Email { get; set; }
     public string Login { get; set; }
