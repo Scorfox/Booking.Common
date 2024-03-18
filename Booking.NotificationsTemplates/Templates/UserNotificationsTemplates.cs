@@ -1,4 +1,4 @@
-﻿namespace Otus.Booking.Common.Booking.Notifications.Templates
+﻿namespace Otus.Booking.Common.Booking.NotificationsTemplates.Templates
 {
     public record UserNotificationsTemplates
     {
