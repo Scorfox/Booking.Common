@@ -6,4 +6,7 @@ namespace Otus.Booking.Common.Booking.Contracts.Filial.Responses;
 /// <summary>
 /// Ответ на успешное получение филиалов с пагинацией
 /// </summary>
-public record GetFilialsListResult : ResponseByPagination<FilialGettingDto>;
+public record GetFilialsListResult : ResponseByPagination<FilialGettingDto>
+{
+    public Guid CompanyId { get; set; }
+}

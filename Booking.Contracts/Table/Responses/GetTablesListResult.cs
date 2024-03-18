@@ -6,4 +6,7 @@ namespace Otus.Booking.Common.Booking.Contracts.Table.Responses;
 /// <summary>
 /// Запрос на успешноен получение столов с пагинацией
 /// </summary>
-public record GetTablesListResult : ResponseByPagination<TableGettingDto>;
+public record GetTablesListResult : ResponseByPagination<TableGettingDto>
+{
+    public Guid FilialId { get; set; }
+}

@@ -6,4 +6,7 @@ namespace Otus.Booking.Common.Booking.Contracts.Reservation.Responses;
 /// <summary>
 /// Ответ на успешное получение бронирований с пагинацией
 /// </summary>
-public record GetReservationsListResult : ResponseByPagination<ReservationGettingDto>;
+public record GetReservationsListResult : ResponseByPagination<ReservationGettingDto>
+{
+    public Guid FilialId { get; set; }
+}
