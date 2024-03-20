@@ -1,5 +1,6 @@
 ﻿namespace Otus.Booking.Common.Booking.NotificationsTemplates.Templates
 {
+    [Obsolete("Moved to Booking.Notifications", true)]
     public record UserNotificationsTemplates
     {
         public static string UserCreatedBodyTemplate => @"
