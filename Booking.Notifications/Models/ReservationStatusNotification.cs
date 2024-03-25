@@ -3,7 +3,7 @@
 public class ReservationStatusNotification
 {
     public string Email { get; set; }
-    public string FirastName { get; set; }
+    public string FirstName { get; set; }
     public string LastName { get; set; }
     public string FilialName { get; set; }
     public string Address { get; set; }
