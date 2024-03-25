@@ -1,6 +1,6 @@
 ﻿namespace Otus.Booking.Common.Booking.Notifications.Models
 {
-    public class ReservationCreatedNotificationModel
+    public class ReservationCreatedNotification
     {
         public string FirastName { get; set; }
         public string LastName { get; set; }
