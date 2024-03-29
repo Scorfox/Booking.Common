@@ -1,4 +1,4 @@
-﻿namespace Otus.Booking.Common.Booking.Notifications.Models;
+﻿namespace Otus.Booking.Common.Booking.Notifications.Enums;
 
 public enum ReservationStatus
 {

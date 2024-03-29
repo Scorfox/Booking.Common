@@ -1,4 +1,6 @@
-﻿namespace Otus.Booking.Common.Booking.Notifications.Models;
+﻿using Otus.Booking.Common.Booking.Notifications.Enums;
+
+namespace Otus.Booking.Common.Booking.Notifications.Models;
 
 public record ReservationStatusChangedNotification
 {

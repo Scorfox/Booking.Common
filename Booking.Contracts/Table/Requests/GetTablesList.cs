@@ -3,7 +3,7 @@
 namespace Otus.Booking.Common.Booking.Contracts.Table.Requests;
 
 /// <summary>
-/// Запрос на поулчение столов с пагинацией
+/// Запрос на получение столов с пагинацией
 /// </summary>
 public record GetTablesList : RequestByPagination
 {
