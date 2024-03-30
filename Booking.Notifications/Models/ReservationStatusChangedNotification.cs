@@ -12,4 +12,7 @@ public record ReservationStatusChangedNotification
     public string TableName { get; set; }
     public int PersonsCount { get; set; }
     public ReservationStatus Status { get; set; }
+    
+    public DateTimeOffset From { get; set; }
+    public DateTimeOffset To { get; set; }
 }
