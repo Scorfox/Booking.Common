@@ -6,6 +6,7 @@
 public record ConfirmReservation
 {
     public Guid CompanyId { get; set; }
+    public Guid FilialId { get; set; }
     public Guid TableId { get; set; }
     public Guid Id { get; set; }
     public Guid WhoConfirmedId { get; set; }
