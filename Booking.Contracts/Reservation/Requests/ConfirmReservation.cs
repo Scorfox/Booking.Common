@@ -10,4 +10,7 @@ public record ConfirmReservation
     public Guid TableId { get; set; }
     public Guid Id { get; set; }
     public Guid WhoConfirmedId { get; set; }
+    
+    public DateTimeOffset From { get; set; }
+    public DateTimeOffset To { get; set; }
 }
